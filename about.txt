@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome!
+
+ It's 2023-01-10 at 02:57 AM
+
+ This file is running on:    nt Windows 10
+ 
+ The Python version is:      3.10.8
+ 
+ The Python interpreter is at: 
+ C:\Users\Hoski\miniconda3\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ C:\Users\Hoski\miniconda3
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ C:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started
+ 
+ The absolute path to the data directory is:
+
+ C:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started\
+ 
+ The absolute path to this source directory is:
+
+ c:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started
+ 
+ The absolute path to this file is:
+
+ c:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started\about.py
+ 
+==============================================================
+==============================================================
+
