@@ -349,17 +349,17 @@ git push origin main
 
 Change the open boxes [ ] below to checked boxes [x] as you complete the tasks.
 
-- [X] Task 1. Sign up for GitHub
-- [X] Task 2. Install (and configure) Git
-- [X] Task 3. Install Miniconda3 (or other)
-- [X] Task 4. Install VS Code
-- [X] Task 5. Install VS Code Extension: Python
-- [X] Task 6. Install VS Code Extension: GitHub Repositories
-- [X] Task 7. Fork this repo into your account
-- [X] Task 8. Clone your new GitHub repo down
-- [X] Task 9. Explore the repo in VS Code
-- [X] Task 10. Execute a Python script.
-- [X] Task 11. Check the boxes (edit a Markdown file)
+- [x] Task 1. Sign up for GitHub
+- [x] Task 2. Install (and configure) Git
+- [x] Task 3. Install Miniconda3 (or other)
+- [x] Task 4. Install VS Code
+- [x] Task 5. Install VS Code Extension: Python
+- [x] Task 6. Install VS Code Extension: GitHub Repositories
+- [x] Task 7. Fork this repo into your account
+- [x] Task 8. Clone your new GitHub repo down
+- [x] Task 9. Explore the repo in VS Code
+- [x] Task 10. Execute a Python script.
+- [x] Task 11. Check the boxes (edit a Markdown file)
 - [ ] Task 12. Commit changes (with a message!) and push to GitHub
 
 Finally - after your initial commit and push, you can check the last box. 
