@@ -7,15 +7,214 @@
 # CTRL V = paste =      Command V
 
 # It'll look something like this only longer:
+# Student Name: Ash Hoskins
 
-Python 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0] on linux
+Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> 2+2
-4
->>> print("hello")
-hello
->>> a = 5
->>> b = 3
->>> print( min (a, b))
-3
->>> 
+>>> 45+72
+117
+>>> x = 7
+>>> y = 3
+>>> x + y
+10
+>>> type(x)
+<class 'int'>
+>>> type(10.5)
+<class 'float'>
+>>> total = x + y
+>>> total
+10
+>>> selfchecksum  = 10.8 + 12.2 + .2
+>>> selfchecksum
+23.2
+>>> print("2.3 Arthmetic")
+2.3 Arthmetic
+>>> 7 * 4
+28
+>>> 2 ** 10
+1024
+>>> prtin ("Exponent operator **")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'prtin' is not defined. Did you mean: 'print'?
+>>> print ("Exponent operator **")
+Exponent operator **
+>>> 2 ** 10
+1024
+>>> 9 ** (1/2) print ("Square root")
+  File "<stdin>", line 1
+    9 ** (1/2) print ("Square root")
+               ^^^^^
+SyntaxError: invalid syntax
+>>> 9 ** (1/2)
+3.0
+>>> print ("square root")
+square root
+>>> truedivision = 7 / 4
+>>> truedivision
+1.75
+>>> floordivision = 7 // 4
+>>> floordivision
+1
+>>> 3 // 5
+0
+>>>  14 // 7
+  File "<stdin>", line 1
+    14 // 7
+IndentationError: unexpected indent
+>>> 14 // 7
+2
+>>> -13/4
+-3.25
+>>> -13 // 4
+-4
+>>> remainderop = 17 % 5
+>>> remdainderop
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'remdainderop' is not defined. Did you mean: 'remainderop'?
+>>> remainderop
+2
+>>> rop2 = 7.5 % 3.5
+>>> rop2
+0.5
+>>> 10 * (5 + 3)
+80
+>>> 10 * 5 + 3
+53
+>>> print ("Welcome to Python!")
+Welcome to Python!
+>>> print ('Welcome to Python!')
+Welcome to Python!
+>>> print('Welcome', 'to', 'python!')
+Welcome to python!
+>>> print("welcome\nto\n\nPython")
+welcome
+to
+
+Python
+>>> print('this is a longer string, so we \...: split it over two lines')
+this is a longer string, so we \...: split it over two lines
+>>> print('this is a longer string, so we \ ...: split it over two lines')
+this is a longer string, so we \ ...: split it over two lines
+>>> print('this is a longer string, so we \n ...: split it over two lines')
+this is a longer string, so we
+ ...: split it over two lines
+>>> print ('Sum is', 7 +3)
+Sum is 10
+>>> print("That was 2.4 function print into single and double quote')
+  File "<stdin>", line 1
+    print("That was 2.4 function print into single and double quote')
+          ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print('That was 2.4 function print into single and double quote')
+That was 2.4 function print into single and double quote
+>>> print('Display "hi" in quotes')
+Display "hi" in quotes
+>>> print ('Display \ 'hi' \ in quotes')
+  File "<stdin>", line 1
+    print ('Display \ 'hi' \ in quotes')
+           ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print ('Display \'hi'\ in quotes')
+  File "<stdin>", line 1
+    print ('Display \'hi'\ in quotes')
+                          ^
+SyntaxError: unexpected character after line continuation character
+>>> print ('Display \'hi\' in quotes')
+Display 'hi' in quotes
+>>> print("Display the name O'Brien")
+Display the name O'Brien
+>>> print("Display \"hi\" in quotes")
+Display "hi" in quotes
+>>> print("""Display "hi" and 'bye' in quotes""")
+Display "hi" and 'bye' in quotes
+>>> tripe_quoted_string ="""This is a triple-quoted ...: string that spand two lines"""
+>>> tripe_quoted_string
+'This is a triple-quoted ...: string that spand two lines'
+>>> triple_quoted_string ="""This is a triple-quoted \n string that spand two lines""""
+  File "<stdin>", line 1
+    triple_quoted_string ="""This is a triple-quoted \n string that spand two lines""""
+                                                                                      ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> triple_quoted_string ="""This is a triple-quoted \n string that spand two lines"""
+>>> triple_quoted_string
+'This is a triple-quoted \n string that spand two lines'
+>>> print(triple_quoted_string)
+This is a triple-quoted
+ string that spand two lines
+>>> triple_quoted_string ="""This is a triple-quoted \nstring that spand two lines"""
+>>> print(triple_quoted_string)
+This is a triple-quoted
+string that spand two lines
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> print("This i 2.6 getting input from users")
+This i 2.6 getting input from users
+>>> print("This is 2.6 getting input from users")
+This is 2.6 getting input from users
+>>>
+>>> name = input("What's your name? ")
+What's your name? Paul
+>>> name
+'Paul'
+>>> name = input("What's your name? ")
+What's your name? Ash
+>>> name
+'Ash'
+>>> print (name)
+Ash
+>>> value1 = input("Enter first number: ")
+Enter first number: 7
+>>> value2 = input("Enter second number: ")
+Enter second number: 3
+>>> value1 + value 2
+  File "<stdin>", line 1
+    value1 + value 2
+                   ^
+SyntaxError: invalid syntax
+>>> value1 + value2
+'73'
+>>> value = input("Enter an integer: ')
+  File "<stdin>", line 1
+    value = input("Enter an integer: ')
+                  ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> value = input('Enter an integer: ')
+Enter an integer: 7
+>>> value = int(value)
+>>> value
+7
+>>> type(value)
+<class 'int'>
+>>> type(value1)
+<class 'str'>
+>>> another_value = int(input('enter another integer: '))
+enter another integer: 13
+>>> value + another_value
+20
+>>> bad_value = int((input('enter another integer: ' ))
+... dk
+  File "<stdin>", line 1
+    bad_value = int((input('enter another integer: ' ))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> bad_value = int(input('enter another integer: ' ))
+enter another integer: hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'hello'
+>>> int(10.5)
+10
+>>> float("10.5")
+10.5
+>>> test = float ("10.5")
+>>> type(test)
+<class 'float'>
+>>>
