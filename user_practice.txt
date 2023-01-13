@@ -1,3 +1,9 @@
+"""
+Student Name: Ash Hoskins, Student #S559245
+Course: CSIS 44-609 - Data Analytics Fundamentals
+Professor Denise Case
+Assignment 1, Module 1, Task 3
+"""
 # Paste your interactive Python practice sesssion here
 # See course site for details.
 #
@@ -17,7 +23,7 @@
 # CTRL V = paste =      Command V
 
 # It'll look something like this only longer:
-# Student Name: Ash Hoskins
+
 
 Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
