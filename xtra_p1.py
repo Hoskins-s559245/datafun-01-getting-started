@@ -4,7 +4,6 @@ Student Name: Ash Hoskins, Student #S559245
 Course: CSIS 44-609 - Data Analytics Fundamentals
 Professor Denise Case
 Assignment 1, Module 1, Task 6
-
 """
 
 import random
@@ -32,7 +31,6 @@ print()
 
 user_choice = str(input("Enter wolf, eagle or snake :"))
 
-
 # Now the bot will pick one
 buddy_choice = random.choice(["wolf", "eagle", "snake"])
 
@@ -47,26 +45,26 @@ print()
 # Complete the logic to
 # compare the choices and print who won
 # In Python, indentation is important!
-
-
 if user_choice == buddy_choice:
-    print("We tied!")
+    print("We tied!")   
 
-elif user_choice == "wolf" :
-    if buddy_choice == "eagle" :
+elif user_choice == "wolf":
+    if buddy_choice == "eagle":
         print("The Wolf scares the Eagle.")
     else:
-        print ("The Snake Bites the Wolf!")
-elif user_choice == "eagle" :
-    if buddy_choice == "wolf" :
-        print ("The Wolf Scares the Eagle")
+        print("The Snake Bites the Wolf!")
+
+elif user_choice == "eagle":
+    if buddy_choice == "wolf":
+        print("The Wolf Scares the Eagle")        
     else:
         print("The Eagle grabs the snake")
-elif user_choice == "snake" :
-    if buddy_choice == "wolf" :
+        
+elif user_choice == "snake":
+    if buddy_choice == "wolf":
         print("The Snake Bites the Wolf!")
-    else: 
-        print ("The Eagle Grabs the Snake")
+    else:
+        print("The Eagle Grabs the Snake")
 
 # When you finish,
 # right-click on the code and select "Format Document"
@@ -76,9 +74,6 @@ elif user_choice == "snake" :
 # docstring comment below.
 # --------------------------------------------------------------------
 """
-
-PS C:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started> & C:/Users/Hoski/miniconda3/python.exe c:/Users/Hoski/Desktop/NWMS/GIT/datafun-01-getting-started/xtra_p1.py
-
 Hello, I'm The Great Hunter Joshua your gamebot.
 Let's play an animal guessing game!
 There are 3 animals: wolf, eagle, snake (a Python of course).
@@ -92,8 +87,8 @@ You said wolf.
 I said snake.
 
 The Snake Bites the Wolf!
-PS C:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started> & C:/Users/Hoski/miniconda3/python.exe c:/Users/Hoski/Desktop/NWMS/GIT/datafun-01-getting-started/xtra_p1.py
 
+Game 2:
 Hello, I'm The Great Hunter Joshua your gamebot.
 Let's play an animal guessing game!
 There are 3 animals: wolf, eagle, snake (a Python of course).
@@ -108,8 +103,8 @@ You said eagle.
 I said eagle.
 
 We tied!
-PS C:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started> & C:/Users/Hoski/miniconda3/python.exe c:/Users/Hoski/Desktop/NWMS/GIT/datafun-01-getting-started/xtra_p1.py
 
+Game 3: 
 Hello, I'm The Great Hunter Joshua your gamebot.
 Let's play an animal guessing game!
 There are 3 animals: wolf, eagle, snake (a Python of course).
@@ -124,7 +119,4 @@ You said snake.
 I said wolf.
 
 The Snake Bites the Wolf!
-PS C:\Users\Hoski\Desktop\NWMS\GIT\datafun-01-getting-started>
-
-
 """
